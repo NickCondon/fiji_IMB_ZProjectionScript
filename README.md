@@ -1,5 +1,5 @@
 # ImageJ/FIJI Z-Projection Script
-_____________
+=======================
 
 
 
@@ -13,16 +13,17 @@ Brisbane, Australia 2018
 This script is written in the ImageJ1 Macro Language.
 
 
-<h3>Background
-<p>
+Background
+-----
+
 This script is designed to project multiple dimension files.
 
 This script can work on multiple files within a single directory and as long as the format is Bio-formats compatible,  it should run fine. (TIP: Go windowless for the format which you plan to use. See “Preventing Bio-formats Importer window.rtf” file to do this.)
 
 The script can be run as a simple file converter by selecting “No Projection” and “Save .tif output” options. Note even if selected, no .avi will be created.
 
-<h3>Running the script
-<p>
+Running the script
+-----
 The first dialog box to appear explains the script, acknowledges the creator and the ACRF:Cancer Biology Imaging Facility.
 
 The second dialog to open will warn the user to select the working directory of your files and to take note of the file extension that they wish to process.
@@ -46,9 +47,9 @@ If you select to output .avi files the following pop-up will run. This is where 
 The final dialog box is an alert to the user that the batch is completed. 
 
 
-<h3>Output files
-<p>
-Files are put into a results directory called “<Projectiontype>_Results_<date&time> within the chosen working directory. Files will be saved as either a .tif  .avi or .txt for the log file. Original filenames are kept and have tags appended to them based upon the chosen parameters.
+Output files
+-----
+Files are put into a results directory called “<Projectiontype>_Results_<date&time>" within the chosen working directory. Files will be saved as either a .tif  .avi or .txt for the log file. Original filenames are kept and have tags appended to them based upon the chosen parameters.
 
 A text file called log.txt is included which has the chosen parameters and date and time of the run.
 
