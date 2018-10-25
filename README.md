@@ -49,7 +49,7 @@ The final dialog box is an alert to the user that the batch is completed.
 
 Output files
 -----
-Files are put into a results directory called “<Projectiontype>_Results_<date&time>" within the chosen working directory. Files will be saved as either a .tif  .avi or .txt for the log file. Original filenames are kept and have tags appended to them based upon the chosen parameters.
+Files are put into a results directory called '<Projectiontype>_Results_<date&time>' within the chosen working directory. Files will be saved as either a .tif  .avi or .txt for the log file. Original filenames are kept and have tags appended to them based upon the chosen parameters.
 
 A text file called log.txt is included which has the chosen parameters and date and time of the run.
 
