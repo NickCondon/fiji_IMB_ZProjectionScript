@@ -2,11 +2,12 @@
 
 
 This is a FIJI/ImageJ script that batch projects image stacks with optional .avi production.
-IMB_Z Projection and AVI output
-Developed by Dr Nicholas Condon 
+IMB_Z Projection and AVI output.
+Developed by Dr Nicholas Condon.
+
 [ACRF:Cancer Biology Imaging Facility](https://imb.uq.edu.au/microscopy), 
 Institute for Molecular Biosciences, The University of Queensland
-Brisbane, Australia 2018
+Brisbane, Australia 2018.
 
 This script is written in the ImageJ1 Macro Language.
 
